@@ -11,20 +11,25 @@ export default defineConfig(async ({ command }) => {
     tailwindcss(),
     tanstackStart({
       server: { entry: "server" },
+      prerender: {
+        enabled: true,
+        crawlLinks: false,
+      },
     }),
     react(),
   ];
 
-  if (command === "build") {
+  if (command === "build" && process.env.VERCEL) {
     const { nitro } = await import("nitro/vite");
     plugins.push(
       nitro({
-        defaultPreset: process.env.VERCEL ? "vercel" : "cloudflare-module",
+        defaultPreset: "vercel",
       }),
     );
   }
 
   return {
+    base: process.env.GITHUB_PAGES ? "/portfolio/" : "/",
     resolve: {
       alias: {
         "@": fileURLToPath(new URL("./src", import.meta.url)),

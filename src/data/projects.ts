@@ -22,6 +22,8 @@ export type Project = {
   };
 };
 
+const base = (import.meta.env?.BASE_URL ?? "/").replace(/\/$/, "");
+
 export const projects: Project[] = [
   {
     id: "examcell-chatbot",
@@ -29,7 +31,7 @@ export const projects: Project[] = [
     shortTitle: "Examination Cell Chatbot",
     description:
       "Designed and implemented a personalized chatbot to help students access Examination Cell information through natural-language queries.",
-    image: "/assets/projects/examcell.png",
+    image: `${base}/assets/projects/examcell.png`,
     technologies: ["Python", "FastAPI", "React", "SQLite", "RAG", "OCR", "LLM"],
     github: "https://github.com/TunganaVinodKumar/examcell-chatbot",
     demo: "https://examcell-chatbot-1.onrender.com/",
@@ -62,7 +64,7 @@ export const projects: Project[] = [
     shortTitle: "StudentExam",
     description:
       "A full-stack examination management and automated assessment platform designed for academic institutions.",
-    image: "/assets/projects/studentexam.png",
+    image: `${base}/assets/projects/studentexam.png`,
     technologies: ["Java", "Spring Boot", "MySQL", "React", "REST APIs", "Tailwind CSS"],
     github: "",
     demo: null,
@@ -87,7 +89,7 @@ export const projects: Project[] = [
     shortTitle: "SoundWave",
     description:
       "A modern, responsive music streaming web application with audio playback controls and playlist management.",
-    image: "/assets/projects/soundwave.png",
+    image: `${base}/assets/projects/soundwave.png`,
     technologies: ["React", "JavaScript", "HTML5 Audio", "Tailwind CSS"],
     github: "https://github.com/TunganaVinodKumar/SoundWave",
     demo: "https://musicclone-yzh4.onrender.com/",
@@ -110,7 +112,7 @@ export const projects: Project[] = [
     shortTitle: "LiverDisease",
     description:
       "A machine learning web application that predicts the likelihood of liver disease based on patient health parameters.",
-    image: "/assets/projects/liverdisease.png",
+    image: `${base}/assets/projects/liverdisease.png`,
     technologies: ["Python", "Machine Learning", "Pandas", "Scikit-learn", "Streamlit"],
     github: "https://github.com/TunganaVinodKumar/LiverDisease",
     demo: "https://tunganavinodkumar.pythonanywhere.com/",
@@ -132,10 +134,10 @@ export const projects: Project[] = [
     shortTitle: "Paradise Nursery",
     description:
       "A plant nursery e-commerce web application for browsing and managing house plants.",
-    image: "/assets/projects/paradisenursery.png",
+    image: `${base}/assets/projects/paradisenursery.png`,
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     github: "https://github.com/TunganaVinodKumar/ParadiseNursery",
-    demo: "https://paradise-nursery-lac.vercel.appq/",
+    demo: "https://paradise-nursery-lac.vercel.app/",
     featured: false,
     details: {
       overview:

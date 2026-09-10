@@ -4,6 +4,8 @@
  * automatically — no placeholder text is ever shown to visitors.
  */
 
+const base = (import.meta.env?.BASE_URL ?? "/").replace(/\/$/, "");
+
 export const profile = {
   name: "Tungana Vinod Kumar",
   mark: "TVK",
@@ -16,9 +18,9 @@ export const profile = {
   email: "tunganavinodkumar@gmail.com",
   github: "https://github.com/TunganaVinodKumar",
   linkedin: "https://www.linkedin.com/in/tunganavinodkumar/",
-  resume: "/assets/resume.pdf",
-  // photo: "/assets/profile.jpg",
-  qrCode: "/assets/qr.png",
+  resume: `${base}/assets/resume.pdf`,
+  photo: `${base}/assets/profile.jpg`,
+  qrCode: `${base}/assets/qr.png`,
   web3FormsAccessKey: "58239c14-2e80-43c7-bb2f-4a6feb18b25e", // Web3Forms access key for direct email delivery
   about: [
     "I am a Computer Science & Engineering graduate specializing in Artificial Intelligence & Machine Learning. Java is my primary programming language and my main career focus is Java development, backend development and full-stack development.",
