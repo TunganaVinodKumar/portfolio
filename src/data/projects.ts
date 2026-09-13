@@ -56,13 +56,13 @@ export const projects: Project[] = [
     description:
       "A predictive analytics healthcare application utilizing supervised machine learning algorithms to evaluate patient biochemical parameters and assess liver disease risk.",
     image: `${base}/assets/projects/liverdisease.png`,
-    technologies: ["Python", "Scikit-learn", "Pandas", "Streamlit", "Machine Learning"],
+    technologies: ["Python", "Flask", "Scikit-learn", "Pandas", "Machine Learning"],
     github: "https://github.com/TunganaVinodKumar/LiverDisease",
     demo: "https://tunganavinodkumar.pythonanywhere.com/",
     featured: false,
     details: {
       overview:
-        "Developed a clinical decision support tool using patient health records to predict liver disorder probability. The project covers data preprocessing, feature correlation analysis, classification model training with Scikit-learn, and an interactive web interface built with Streamlit.",
+        "Developed a clinical decision support tool using patient health records to predict liver disorder probability. The project covers data preprocessing, feature correlation analysis, classification model training with Scikit-learn, and a web interface built with Flask.",
       features: [
         "Data cleaning, missing-value imputation, and feature scaling using Pandas and NumPy",
         "Supervised classification model trained and cross-validated on clinical biomarker datasets",
