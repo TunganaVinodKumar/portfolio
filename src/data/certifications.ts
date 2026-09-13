@@ -14,7 +14,7 @@ export type Certification = {
   description?: string;
 };
 
-export const featuredCount = 6;
+export const featuredCount = 3;
 
 const base = (import.meta.env?.BASE_URL ?? "/").replace(/\/$/, "");
 

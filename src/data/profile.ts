@@ -30,11 +30,35 @@ export const profile = {
   ],
 };
 
-export const education = {
-  institution: "NSRIT (Autonomous)",
-  degree: "Bachelor of Technology - B.Tech",
-  field: "Computer Science & Engineering",
-  specialization: "Artificial Intelligence & Machine Learning",
-  period: "2022 – 2026",
-  score: "CGPA 8.33 / 10",
+export type EducationItem = {
+  institution: string;
+  degree: string;
+  field?: string;
+  specialization?: string;
+  period: string;
+  score: string;
+  badgeText?: string;
 };
+
+export const educationList: EducationItem[] = [
+  {
+    institution: "NSRIT (Autonomous)",
+    degree: "Bachelor of Technology - B.Tech",
+    field: "Computer Science & Engineering",
+    specialization: "Artificial Intelligence & Machine Learning",
+    period: "2022 – 2026",
+    score: "CGPA 8.33 / 10",
+    badgeText: "Specialization: AI & ML",
+  },
+  {
+    institution: "Sri Sampath Sai Junior College",
+    degree: "Intermediate (Class XII)",
+    field: "MPC",
+    specialization: "Mathematics, Physics & Chemistry",
+    period: "2020 – 2022",
+    score: "77.5% (775 / 1000)",
+    badgeText: "Stream: MPC",
+  },
+];
+
+export const education = educationList[0];
