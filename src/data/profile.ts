@@ -53,11 +53,11 @@ export const educationList: EducationItem[] = [
   {
     institution: "Sri Sampath Sai Junior College",
     degree: "Intermediate (Class XII)",
-    field: "MPC",
+    field: "Mathematics, Physics & Chemistry",
     specialization: "Mathematics, Physics & Chemistry",
     period: "2020 – 2022",
-    score: "77.5% (775 / 1000)",
-    badgeText: "Stream: MPC",
+    score: "77.5%",
+    badgeText: "Mathematics, Physics & Chemistry",
   },
 ];
 

@@ -15,5 +15,5 @@ export const skillGroups: SkillGroup[] = [
     items: ["Object-Oriented Programming (OOP)", "API Design", "Relational Database Modeling"],
   },
   { category: "Frontend", items: ["React", "HTML5", "CSS3"] },
-  { category: "Developer Tools", items: ["Git", "GitHub", "VS Code", "Postman"] },
+  { category: "Developer Tools", items: ["Git", "GitHub", "VS Code"] },
 ];
