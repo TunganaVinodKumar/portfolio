@@ -87,10 +87,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Computer Science & Engineering graduate from NSRIT specializing in AI & ML, focused on Python backend engineering, FastAPI, SQL, RAG pipelines, and LLM integrations.",
       },
-      { property: "og:image", content: "/assets/profile.jpg" },
+      { property: "og:image", content: "https://tunganavinodkumar.github.io/portfolio/assets/profile.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: "/assets/profile.jpg" },
+      { name: "twitter:image", content: "https://tunganavinodkumar.github.io/portfolio/assets/profile.jpg" },
       { name: "theme-color", content: "#ffffff" },
     ],
     links: [
