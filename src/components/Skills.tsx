@@ -43,10 +43,11 @@ export function Skills() {
                     {group.items.map((item) => (
                       <li
                         key={item}
-                        className={`rounded-lg px-3 py-1.5 text-xs sm:text-sm font-semibold transition-all duration-200 border ${item === "Java" || item === "Spring Boot"
+                        className={`rounded-lg px-3 py-1.5 text-xs sm:text-sm font-semibold transition-all duration-200 border ${
+                          item === "Python" || item === "FastAPI" || item === "SQL"
                             ? "bg-blue-50 border-blue-200 text-[#4361ee] shadow-xs hover:scale-105"
                             : "border-slate-200 bg-slate-50/70 text-slate-700 hover:border-[#4361ee] hover:text-[#4361ee] hover:bg-blue-50/40 hover:scale-105"
-                          }`}
+                        }`}
                       >
                         {item}
                       </li>

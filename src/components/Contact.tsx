@@ -123,7 +123,7 @@ export function Contact() {
         <SectionHeading
           eyebrow="Get In Touch"
           title="Let's Connect & Collaborate"
-          subtitle="Have an opening for an Aspiring Java Developer, internship, full-time engineering role, or a technical inquiry? Drop a message below."
+          subtitle="Have an opening for a Python Backend & GenAI Developer, full-time engineering role, or a technical inquiry? Drop a message below."
         />
 
         <div className="mt-12 grid gap-12 lg:grid-cols-[1fr_1.2fr] items-start">

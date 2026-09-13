@@ -17,40 +17,28 @@ const base = (import.meta.env?.BASE_URL ?? "/").replace(/\/$/, "");
 
 export const experiences: Experience[] = [
   {
-    role: "Java Full Stack Developer Intern",
-    organization: "EduSkills Foundation",
-    period: "January 2026 – March 2026",
+    role: "Web Development Intern (Django)",
+    organization: "Andhra Pradesh State Skill Development Corporation (APSSDC)",
+    period: "April 2025 – June 2025",
     description:
-      "Java full-stack development internship focused on building applications with Java and web technologies.",
-    certificateUrl: `${base}/assets/certificates/Java Full Stack Developer Virtual Internship.pdf`,
+      "Engineered backend modules and database-driven web applications using Python and Django. Implemented user authentication, URL routing, and ORM queries.",
+    certificateUrl: `${base}/assets/certificates/Web Development Intern (Django).pdf`,
     highlight: true,
-  },
-  {
-    role: "Data Science Intern",
-    organization: "EduSkills Foundation",
-    period: "October 2025 – December 2025",
-    description: "Data science internship working with data analysis and modelling workflows.",
-    certificateUrl: `${base}/assets/certificates/Data Science Intern.pdf`,
   },
   {
     role: "AI-ML Virtual Intern",
     organization: "EduSkills Foundation",
     period: "July 2025 – September 2025",
-    description: "Virtual internship in Artificial Intelligence and Machine Learning.",
+    description:
+      "Completed hands-on training and projects in Artificial Intelligence and Machine Learning algorithms, dataset preprocessing, and model evaluation pipelines.",
     certificateUrl: `${base}/assets/certificates/AI-ML Virtual Intern.pdf`,
   },
   {
-    role: "Web Development Intern (Django)",
-    organization: "Andhra Pradesh State Skill Development Corporation (APSSDC)",
-    period: "April 2025 – June 2025",
-    description: "Web development internship building web applications using Django.",
-    certificateUrl: `${base}/assets/certificates/Web Development Intern (Django).pdf`,
-  },
-  {
-    role: "Cloud & DevOps Intern",
-    organization: "Demy Software Solutions",
-    period: "June 2024 – July 2024",
-    description: "Internship covering cloud computing and DevOps fundamentals.",
-    certificateUrl: `${base}/assets/certificates/Cloud & DevOps Intern.pdf`,
+    role: "Data Science Intern",
+    organization: "EduSkills Foundation",
+    period: "October 2025 – December 2025",
+    description:
+      "Analyzed multidimensional datasets using Python, Pandas, and visualization libraries. Developed exploratory data analysis (EDA) and predictive modeling workflows.",
+    certificateUrl: `${base}/assets/certificates/Data Science Intern.pdf`,
   },
 ];

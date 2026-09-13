@@ -73,19 +73,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Tungana Vinod Kumar | Aspiring Java Developer" },
+      { title: "Tungana Vinod Kumar | Python Backend & GenAI Developer" },
       {
         name: "description",
         content:
-          "2026 Computer Science & Engineering graduate specializing in AI & ML, focused on Java, backend, full-stack development and AI/RAG applications.",
+          "Computer Science & Engineering graduate from NSRIT specializing in AI & ML, focused on Python backend engineering, FastAPI, SQL, RAG pipelines, and LLM integrations.",
       },
       { name: "author", content: "Tungana Vinod Kumar" },
       { property: "og:site_name", content: "Tungana Vinod Kumar" },
-      { property: "og:title", content: "Tungana Vinod Kumar | Aspiring Java Developer" },
+      { property: "og:title", content: "Tungana Vinod Kumar | Python Backend & GenAI Developer" },
       {
         property: "og:description",
         content:
-          "2026 Computer Science & Engineering graduate specializing in AI & ML, focused on Java, backend, full-stack development and AI/RAG applications.",
+          "Computer Science & Engineering graduate from NSRIT specializing in AI & ML, focused on Python backend engineering, FastAPI, SQL, RAG pipelines, and LLM integrations.",
       },
       { property: "og:image", content: "/assets/profile.jpg" },
       { property: "og:type", content: "website" },

@@ -13,7 +13,7 @@ export function Education() {
         <SectionHeading
           eyebrow="Academic Foundation"
           title="Education & Qualifications"
-          subtitle="Rigorous engineering foundation in Computer Science with advanced coursework in Algorithms, Data Structures, AI, and Machine Learning."
+          subtitle="Comprehensive engineering foundation in Computer Science with specialized coursework in Artificial Intelligence, Machine Learning, Databases, and Software Engineering."
         />
 
         <Reveal>

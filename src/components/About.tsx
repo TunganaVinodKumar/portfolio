@@ -19,7 +19,7 @@ export function About() {
     {
       label: "Internships",
       title: `${experiences.length} Industry Internships`,
-      subtitle: "Java Full Stack, Data Science, AI/ML, Django",
+      subtitle: "Django Web Dev, AI/ML & Data Science",
       icon: Briefcase,
       color: "from-purple-50 to-pink-100 text-[#7209b7] border-purple-200",
     },
@@ -52,7 +52,7 @@ export function About() {
           {/* Left Column: Biography and Dual CTAs */}
           <Reveal className="space-y-6">
             <h3 className="text-2xl sm:text-3xl font-display font-bold text-foreground">
-              Aspiring Java Developer with expertise in Full-Stack & AI Systems
+              Python Backend & GenAI Developer specializing in Scalable APIs & Intelligent Systems
             </h3>
 
             <div className="space-y-4 text-base sm:text-lg leading-relaxed text-muted-foreground">

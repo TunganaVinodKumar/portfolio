@@ -11,9 +11,9 @@ import { ResumeCTA } from "@/components/ResumeCTA";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
-const title = "Tungana Vinod Kumar | Aspiring Java Developer";
+const title = "Tungana Vinod Kumar | Python Backend & GenAI Developer";
 const description =
-  "2026 Computer Science & Engineering graduate specializing in AI & ML, focused on Java, backend, full-stack development and AI/RAG applications.";
+  "Computer Science & Engineering graduate from NSRIT specializing in AI & ML, focused on Python backend engineering, FastAPI, SQL, RAG pipelines, and LLM integrations.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
