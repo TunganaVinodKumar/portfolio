@@ -3,7 +3,7 @@
 export type SkillGroup = { category: string; items: string[] };
 
 export const skillGroups: SkillGroup[] = [
-  { category: "Languages", items: ["Python", "SQL", "JavaScript", "Java"] },
+  { category: "Languages", items: ["Python", "SQL", "Java"] },
   { category: "Backend & APIs", items: ["FastAPI", "REST APIs", "Django", "Flask"] },
   { category: "Databases", items: ["MySQL", "SQLite"] },
   {
