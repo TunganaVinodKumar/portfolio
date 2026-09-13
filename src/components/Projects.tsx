@@ -23,7 +23,7 @@ export function Projects() {
         <SectionHeading
           eyebrow="Portfolio of Work"
           title="Featured Projects & Applications"
-          subtitle="Real-world full-stack architectures, RAG pipelines, and interactive web software engineered with Java, Python, React, and modern databases."
+          subtitle="Real-world backend architectures, RAG pipelines, and interactive web software engineered with Python, FastAPI, React, and modern databases."
         />
 
         {/* Featured Card */}

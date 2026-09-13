@@ -20,14 +20,14 @@ const base = (import.meta.env?.BASE_URL ?? "/").replace(/\/$/, "");
 
 export const certifications: Certification[] = [
   {
-    id: "java-fullstack",
-    title: "Java FullStack Developer",
-    issuer: "Board Infinity / Coursera",
-    date: "Jul 2025",
-    url: `${base}/assets/certificates/Java Full Stack.pdf`,
-    skills: ["Java", "Spring Boot", "REST APIs", "Full-Stack Development", "Database Management"],
+    id: "kaggle-google-ai-agents",
+    title: "5-Day AI Agents Intensive Course with Google",
+    issuer: "Kaggle × Google",
+    date: "Dec 2025",
+    url: `${base}/assets/certificates/5-Day AI Agents Intensive Course with Google.jpg`,
+    skills: ["Autonomous AI Agents", "Tool Calling", "Multi-Agent Architectures", "Gemini API"],
     description:
-      "Comprehensive certification validating hands-on competencies in Java enterprise development, RESTful APIs, Spring ecosystem, relational database integration, and modern full-stack web architectures.",
+      "Intensive industry training covering cutting-edge autonomous AI agents, tool integration, reasoning loops, memory systems, and multi-agent coordination powered by Google Gemini.",
   },
   {
     id: "gcp-ai-foundations",
@@ -46,14 +46,14 @@ export const certifications: Certification[] = [
       "Certified credential covering modern Generative AI principles, foundation models, prompt engineering methodologies, ethical AI implementation, and Google Cloud AI services.",
   },
   {
-    id: "ibm-ai-fundamentals",
-    title: "Artificial Intelligence Fundamentals",
-    issuer: "IBM SkillsBuild",
-    date: "Sep 2025",
-    url: `${base}/assets/certificates/Artificial Intelligence Fundamentals.pdf`,
-    skills: ["AI Fundamentals", "Machine Learning Concepts", "Neural Networks", "Data Ethics"],
+    id: "ibm-data-analysis-python",
+    title: "Data Analysis with Python",
+    issuer: "IBM / Coursera",
+    date: "Jul 2025",
+    url: `${base}/assets/certificates/Data Analysis with Python.pdf`,
+    skills: ["Python", "Pandas", "NumPy", "Data Wrangling", "Statistical Modeling"],
     description:
-      "Demonstrates fundamental understanding of Artificial Intelligence architectures, natural language processing, machine learning models, and real-world deployment considerations.",
+      "Hands-on certification in exploratory data analysis, data wrangling with Pandas & NumPy, predictive modeling, regression, and data visualization pipelines in Python.",
   },
   {
     id: "ibm-ai-customer-service",
@@ -66,24 +66,14 @@ export const certifications: Certification[] = [
       "Validates applied engineering knowledge in creating AI-powered virtual assistants, conversational flows, and automated customer service systems using natural language understanding.",
   },
   {
-    id: "ibm-data-analysis-python",
-    title: "Data Analysis with Python",
-    issuer: "IBM / Coursera",
-    date: "Jul 2025",
-    url: `${base}/assets/certificates/Data Analysis with Python.pdf`,
-    skills: ["Python", "Pandas", "NumPy", "Data Wrangling", "Statistical Modeling"],
+    id: "ibm-ai-fundamentals",
+    title: "Artificial Intelligence Fundamentals",
+    issuer: "IBM SkillsBuild",
+    date: "Sep 2025",
+    url: `${base}/assets/certificates/Artificial Intelligence Fundamentals.pdf`,
+    skills: ["AI Fundamentals", "Machine Learning Concepts", "Neural Networks", "Data Ethics"],
     description:
-      "Hands-on certification in exploratory data analysis, data wrangling with Pandas & NumPy, predictive modeling, regression, and data visualization pipelines in Python.",
-  },
-  {
-    id: "kaggle-google-ai-agents",
-    title: "5-Day AI Agents Intensive Course with Google",
-    issuer: "Kaggle × Google",
-    date: "Dec 2025",
-    url: `${base}/assets/certificates/5-Day AI Agents Intensive Course with Google.jpg`,
-    skills: ["Autonomous AI Agents", "Tool Calling", "Multi-Agent Architectures", "Gemini API"],
-    description:
-      "Intensive industry training covering cutting-edge autonomous AI agents, tool integration, reasoning loops, memory systems, and multi-agent coordination powered by Google Gemini.",
+      "Demonstrates fundamental understanding of Artificial Intelligence architectures, natural language processing, machine learning models, and real-world deployment considerations.",
   },
   {
     id: "ibm-react-frontend",

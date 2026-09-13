@@ -23,7 +23,7 @@ export function ResumeCTA() {
                 Let's build reliable software together.
               </h2>
               <p className="mt-4 text-base sm:text-lg leading-relaxed text-slate-600">
-                I am actively seeking software engineering, Java full-stack, and backend developer
+                I am actively seeking Python backend, RESTful API engineering, and Generative AI developer
                 opportunities where I can deliver impactful contributions from day one.
               </p>
 

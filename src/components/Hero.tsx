@@ -153,7 +153,7 @@ export function Hero() {
                       alt={`Portrait of ${profile.name}`}
                       ref={photoRef}
                       onError={onPhotoError}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="h-full w-full object-cover object-[center_20%] scale-135 transition-transform duration-500 group-hover:scale-145"
                     />
                   )}
                 </div>

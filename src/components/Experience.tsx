@@ -14,7 +14,7 @@ export function Experience() {
         <SectionHeading
           eyebrow="Career Timeline"
           title="Internship Experience"
-          subtitle="Hands-on industry virtual internships spanning Java full-stack development, data science, AI/ML, Django web applications, and cloud fundamentals."
+          subtitle="Hands-on industry virtual internships spanning Python web development, Django applications, AI/ML engineering, and data science workflows."
         />
 
         <div className="relative pl-6 sm:pl-10 border-l-2 border-slate-200 space-y-8 mt-12">

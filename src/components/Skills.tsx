@@ -10,7 +10,7 @@ export function Skills() {
         <SectionHeading
           eyebrow="Technical Repertoire"
           title="Skills & Technologies"
-          subtitle="Specialized in Java development, backend architectures, full-stack frameworks, relational databases, and machine learning pipelines."
+          subtitle="Specialized in Python backend development, FastAPI, relational databases, RESTful APIs, and Generative AI pipelines."
         />
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
