@@ -18,7 +18,7 @@ export const profile = {
   email: "tunganavinodkumar@gmail.com",
   github: "https://github.com/TunganaVinodKumar",
   linkedin: "https://www.linkedin.com/in/tunganavinodkumar/",
-  resume: `${base}/assets/resume.pdf`,
+  resume: `${base}/assets/Vinod_Python_Resume.pdf`,
   photo: `${base}/assets/profile.jpg`,
   qrCode: `${base}/assets/qr.png`,
   web3FormsAccessKey: "58239c14-2e80-43c7-bb2f-4a6feb18b25e", // Web3Forms access key for direct email delivery
